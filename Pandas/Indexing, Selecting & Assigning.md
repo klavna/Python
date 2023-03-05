@@ -26,3 +26,8 @@
 
 ## Assigning
 `reviews['critic'] = 'everyone'` 또는 `reviews['index_backwards'] = range(len(reviews), 0, -1)` 방벙이 있다.
+
+## 메모
+왜 안돼??
+` cols = ['Australia','New Zealand']`<br>
+`top_oceania_wines = reviews.loc[:,cols & (reviews.points>=95)]`
